@@ -1,0 +1,270 @@
+.header .navbar1{
+    height: 2rem;
+    background-color:navy;
+}
+.header .navbar1 a{
+    color: white;
+    text-decoration: none;
+    padding-left: 5rem;
+}
+.header .navbar1 .date{
+    padding-left: 18rem;
+}
+.header .navbar1 .material-icons{
+    font-size: 1rem;
+}
+.header .navbar a{
+color: black;
+padding-left: 4rem;
+}
+.header .navbar a p{
+    font-size: .5rem;
+    display: block;
+}
+.header .navbar a img{
+    display: inline;
+}
+.header .navbar .collapse{
+    padding-left: 8rem;
+}
+.head{
+    font-size: x-small;
+    line-height: .2rem;
+}
+.he{
+padding-top: 2rem;
+    font-size: x-large;
+    color: rgb(3, 5, 56);
+    line-height: .2rem;
+}
+.header .navbar .collapse a{
+    font-size: large;
+   font-weight: 700;
+}
+.header .navbar .collapse a:hover{
+    color: rgb(114, 217, 196);
+    border-bottom: .5rem solid rgb(114, 217, 196);
+}
+.header .navbar .collapse button{
+    background-color: rgb(114, 217, 196);
+    margin: 1rem;
+    border: none;
+}
+.header .navbar .collapse .nav-item{
+    margin-top: 1rem;
+}
+.head img{
+    position: absolute;
+    z-index: -1;
+}
+.head h1{
+margin-top: 2rem;
+margin-left: 6rem;
+font-size: 3.5rem;
+color: white;
+}
+.head p{
+    font-size: 1rem;
+    line-height: 1rem;
+    width: 30rem;
+    text-align: justify;
+    margin-left: 6rem;
+    color: white;
+}
+.head .lt{
+   padding: 1rem 1.5rem;
+   font-size: 1.5rem;
+   margin-left: 6rem;
+  background-color: rgb(114, 217, 196);
+   border: none;
+}
+.head .rt{
+    padding: 1rem 1rem;
+   font-size: 1.5rem;
+   margin-left: 2rem;
+   border: .2rem solid black;
+}
+.head .ic{
+    position: absolute;
+    background-color: white;
+    display: inline-block;
+    margin-top: 3rem;
+}
+.courses h1{
+    text-align: center;
+    margin-top: 10rem;
+}
+.courses p{
+    text-align: center;
+    word-spacing: .2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+.head .cour{
+    text-align: center;
+    padding-top: 5rem;
+}
+.head .courp{
+    margin-left: 33rem;
+    color: black;
+}
+.coursephp h2{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 13rem;
+}
+.coursephp .review{
+    text-align: center;
+    display: flex;
+}
+.coursephp .review .vl {
+    border-left: 6px solid green;
+    height: 500px;
+  }
+
+
+
+
+  .content .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 5rem;
+    background-color:lightblue;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons inside the tab */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+
+
+.review .box-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+.review .box-container .box{
+    flex: 1 1 30rem;
+    box-shadow: .5rem rgba(0,0,0,.1 );
+    border-radius: .5rem;
+    padding: 3rem 2rem;
+    position: relative;
+    border: 1rem solid rgba(0,0,0,.1 );
+}
+
+.review .box-container .box .fa-quote-right{
+    position: absolute;
+    bottom: 3rem;
+    right: 3rem;
+    font-size: 4rem;
+    color: #3f3030;
+}
+.review .box-container .box .stars i{
+    color: var(--pink);
+    font-size: 2rem;
+}
+.review .box-container .box .stars p{
+    color:#999;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding-top: 2rem;
+}
+.review .box-container .box .user{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+
+}
+.review .box-container .box .user img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+
+}
+.review .box-container .box .user .user1 h3{
+    font-size: 2rem;
+    color: #000000;
+
+}
+.review .box-container .box .user .user1 span{
+    font-size: 1.5rem;
+    color: #0b0a0a;
+}
+
+
+
+.post h1{
+    text-align: center;
+}
+.post p{
+    text-align: center;
+    padding: 0rem;
+}
+
+.head .card{
+    display: inline-block;
+    margin: 2rem;
+}
+.icons{
+    display:inline;
+    margin-left: 6rem;
+}
+
+
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+    font-size: 1rem;
+    line-height: 2.15;
+    padding-left: .75em;
+    padding-right: .75em;
+    }
+    .card-registration .select-arrow {
+    top: 13px;
+    }
+
+
+
+
